@@ -1,0 +1,44 @@
+
+/* Permet d'agir sur l'ensemble du code */
+* {
+    font-family: "Shadows Into Light";
+    color: white;
+}
+
+/* Permet d'agir sur l'ensemble des balises contenue dans le body */
+body {
+    margin: 3% 20%;
+    color: white;
+}
+
+/* Permet d'agir sur l'ensemble des balises contenue dans la div "container" sans prendre en compte la balise body */
+.container{
+    background-color:#29347B;
+}
+
+/* Permet d'agir sur la balise h1 */
+h1 {
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    padding: 0 35%;
+}
+
+/* Permet d'agir sur l'ensemble des balises article contenue dans la balise section */
+section article {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+/* Permet d'agir sur la div "case" contenue dans la balise article */
+section article .case {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Permet d'agir sur la balise p contenue dans la balise div "case" */
+section article .case p {
+    text-align: center;
+    font-size: x-large;
+}
